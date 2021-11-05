@@ -1,5 +1,3 @@
-import { loginRegisterOverlay } from '/register/';
-
 export const headerUI = () => {
   const menuEvents = () => {
     const headerMenu = document.querySelectorAll('.menu-default');
