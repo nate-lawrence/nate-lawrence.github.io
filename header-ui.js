@@ -17,11 +17,9 @@ export const headerUI = () => {
     const registerButton = document.querySelector('#sign-up');
     const loginButton = document.querySelector('#login');
 
-    registerButton.addEventListener('click', (e) => {
-      loginRegisterOverlay('register');
-    });
+    registerButton.addEventListener('click', (e) => {console.log('Server not set up on github - backend has been implemented on the dev localhost machine');});
     loginButton.addEventListener('click', (e) => {
-      loginRegisterOverlay('login');
+      console.log('Server not set up on github - backend has been implemented on the dev localhost machine');
     })
   };
 
